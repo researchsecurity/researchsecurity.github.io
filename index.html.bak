@@ -112,11 +112,12 @@
         #services {
             margin: 20px auto;
         }
-        .services {
+        .services
+            {
             text-align: center;
             color: white;
             font-size: 20px;  
-        }
+            }
 
         .scroll {
             text-align: center; /* Ensures text within the div remains left-aligned */
@@ -159,10 +160,10 @@
             min-width: 200px;
         }
         .checkbox {
-            display: flex;
-            flex-direction: column;
+            display: grid;
             align-items: center;
-            gap: 10px;
+            grid-template-columns: 1fr 1fr 1fr ;
+            gap: 20px;
             max-width: 300px;
             margin: auto;
         }
