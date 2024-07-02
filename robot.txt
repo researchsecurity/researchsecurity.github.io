@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /private/
+Disallow: /images/
+Disallow: /1337hax/
+Allow: /
+
+Sitemap: https://cyb.ersecurity.com/sitemap.xml
