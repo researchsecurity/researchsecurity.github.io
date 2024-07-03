@@ -43,22 +43,6 @@
 
 
 
-    <div class="watermark"></div>
-    <script>
-        // Detect Print Screen key and alert user
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'PrintScreen') {
-                alert('You have dishonored your family by this transgression. This breach of trust cannot go unaddressed. Screenshots are forbaden.');
-            }
-        });
-
-        // Detect clipboard changes and alert user
-        window.addEventListener('copy', function(e) {
-            alert('You have failed in your duty, and this breach of trust cannot go unaddressed. Copying content is forbaden.');
-            e.clipboardData.clearData();
-            e.preventDefault();
-        });
-    </script>
 
     <style>
         body {
