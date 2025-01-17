@@ -1,3 +1,30 @@
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Cohere AI
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Applebot
+Disallow: /
+
+User-agent: Adbeat
+Disallow: /
+
+User-agent: CriteoBot
+Disallow: /
+
+User-agent: Qwantbot
+Disallow: /
+
 User-agent: *
 Disallow: /private/
 Disallow: /images/
