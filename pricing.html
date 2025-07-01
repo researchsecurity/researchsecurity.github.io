@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Emergency Response Security Group Pricing</title>
+
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            color: white;
+            text-align: left;
+            font-size: 20px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+
+        }
+        header, main, footer {
+            padding: 10px;
+            text-align: left;
+            font-size: 20px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin-inline: 10vw;
+        }
+        header a,
+        main a {
+        color: #ff00e1;
+        text-decoration: none;
+        font-weight: normal;
+        text-align: left;
+        }
+        footer a {
+          color: #00FFC6;
+          text-decoration: none;
+          transition: color .2s ease;
+}
+
+        nav {
+            font-family: Courier New', Courier, monospace;
+            color: #9999ff;
+            background: #000000;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            flex-wrap: wrap;
+        }
+        nav a {
+            font-family: Courier New', Courier, monospace;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+            font-size: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        nav a:hover {
+            font-family: Courier New', Courier, monospace;
+            background: #df1313;
+            color: green;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+            font-size: 20px;
+            animation: pulse 1s infinite;
+        }
+        nav a:link    { color: #00FFC6;   }
+        nav a:visited { color: #00FFC6; }
+
+         @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .content {
+            animation: slideIn 1s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateY(100px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        #services {
+            margin: 20px auto;
+        }
+        .services {
+            text-align: center;
+            color: white;
+            font-size: 20px;  
+        }
+
+        .scroll {
+            text-align: center;
+            padding: 1px;
+            font-size: 20px;
+            font-family: "Courier New", Times, serif;
+            flex-wrap: wrap;
+        }
+        .links a {
+            color: #fc03a5;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .links a:hover {
+            font-family: "Courier New",  Times, serif;
+            background: #ffe6ff;
+            color: #b00274;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        .home {
+            font-family: "Courier New", Times, serif;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        .exploit {
+            font-family: "Courier New", Times, serif;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .column {
+            flex: 1;
+            min-width: 200px;
+        }
+        .checkbox {
+            display: grid;
+            flex-direction: column;
+            grid-template-columns: 1fr 1fr 1fr ;
+            align-items: center;
+            gap: 10px;
+            max-width: 300px;
+            margin: auto;
+        }
+        .checkbox div {
+           margin: 5px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        .example {
+            background-color: blue;
+            color: #fc03a5;
+        }
+        @media (max-width: 600px) {
+            .checkbox {
+                grid-template-columns: 1fr;
+            }
+            nav a {
+                font-size: 14px;
+            }
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+<main>
+<h1>Pricing</h1>
+<p><em>Effective date: July 1, 2025</em></p>
+
+<hr>
+
+<h2>Service Packages</h2>
+
+<div class="package">
+    <h3>Rapid Response Retainer</h3>
+    <p>24/7 incident hotline · Remote triage · Up to 10 on-site hours per month</p>
+    <p class="price">$2,500 / month</p>
+</div>
+
+<div class="package">
+    <h3>Proactive Security Monitoring</h3>
+    <p>Continuous network monitoring · Weekly threat reports · Intelligence feed</p>
+    <p class="price">$4,000 / month</p>
+</div>
+
+<div class="package">
+    <h3>Comprehensive Protection Suite</h3>
+    <p>Rapid Response Retainer + Proactive Monitoring + Quarterly penetration tests</p>
+    <p class="price">$7,500 / month</p>
+</div>
+
+<div class="package">
+    <h3>Enterprise Custom</h3>
+    <p>Tailored SLAs · Dedicated account team · Global coverage</p>
+    <p class="price">Contact for quote</p>
+</div>
+
+<hr>
+
+<h2>À La Carte Services</h2>
+<ul>
+    <li>Penetration Test: from <strong>$9,000</strong> per engagement</li>
+    <li>Security Awareness Training: <strong>$2,000</strong> per 50 employees</li>
+    <li>Risk Assessment &amp; Compliance Audit: from <strong>$6,500</strong></li>
+</ul>
+
+<hr>
+
+<p class="note">All prices are in USD and exclude applicable taxes and travel costs. Pricing is subject to change without notice.</p>
+
+<h2>Contact Us</h2>
+<blockquote>
+<strong>Emergency Response Security Group</strong><br>
+PO BOX 1108 #43-25<br>
+Salem, Oregon 97308<br>
+Phone: 206-300-5767<br>
+Email: <a href="mailto:sales@ersecurity.com">sales@ersecurity.com</a>
+</blockquote>
+
+<hr>
+
+<p>We appreciate the trust you place in us. Thank you for choosing Emergency Response Security Group.</p>
+
+</body>
+</main>
+<footer>
+<center>
+<font color="white">=^..^=    =^..^=  <a href="https://electric.consulting">Electric Consulting LLC</a>   =^..^=    =^..^=</font>
+<br>
+© 2025 + beyond!</center>
+<br>
+<center>
+<a href="privacy.html">Privacy Policy</a> * <a href="terms.html">TOS</a> * <a href="careers.html">Careers</a>
+</center>
+<br>
+</footer>
+</html>
