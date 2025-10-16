@@ -272,54 +272,124 @@ secur\ity-res\earch♥t\hreat-h\unting♥\reverse\engineer\♥inves\tigatio\ns�
 
 
 <main>
-
-
-<div style="display: flex; align-items: center;">
-  <img src="images/dragon.png" alt="Email situation" style="width: 300px; height: auto; margin-right: 20px;">
-  <div>
-
-
-<font color="orange"><b><h2><p>Know thy Enemy</p></font></h2>
-</b>
-
-Email is the most common entry point for cyberattacks targeting small businesses. Hackers use fake invoices, impersonation schemes, and malicious links to exploit busy teams. At Emergency Response Security Group, we provide affordable, expert email security designed specifically for small business owners. With 26 years of hands-on experience and over 55,000 hours in the field, we safeguard your inbox, monitor threats, and deliver monthly reports so you can focus on your customers, not cybercriminals.  It's not just tools we bring to the table, its actually me and a skillset that does not fit into variables within a templating engine.  Let me show you the difference.
-
-</center>
-
-
-
-    <button style="padding: 10px 20px; background-color: #FF00E1; color: white; border: none; border-radius: 5px;">Get Started</button>
-  </div>
+<center>
+<div style="position: relative;">
+  <img src="images/emergency.png" alt="Emergency Response Security Group">
+  <img src="images/transparent.png" style="position: absolute; top: 0; left: 0;" width="100%" height="100%">
 </div>
 
 
-
-<div style="display: flex; align-items: center;">
-  <img src="images/itsec.png" alt="It Security" style="width: 300px; height: auto; margin-right: 20px;">
-  <div>
-
-<br>
-<br>
-<font color="orange"><b><h2><p>Hire Qualified Staff</p></font></h2>
-</b>
-
-Truthfully, right now we have a lot of IT grifters in the market hoping  to slap security on the label to charge more for expensive tool suites that you pay for in costs.  Likely, have so many gaps under the hood and believe that passing off accountability to cloud providers eliminates risk. Security creates work. Work is not something they, or you, want to pay for.  Be more than a queue manager in a land of false positives.  Allow me to help.
-
-    <button style="padding: 10px 20px; background-color: #FF00E1; color: white; border: none; border-radius: 5px;">Sign Up Today</button>
-  </div>
-</div>
-
-
-<p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p></center>
+<center><p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p></center>
 <font color="orange"><b><font size="5"><p>Ditch the One-Size-Fits-All T-shirt</p></font></font>
 </b>
 </center>
-In a world...
+In a world where accountability is key we cannot allow bottlenecks.  That's why, with Emergency Response Security Group, we offer experience; logical and creative solutions that will shatter your perception of our competitors.  We don't profit from bloat, we don't attend meetings about meetings, and we do not compromise your values for our convenience.
+<br><br>
+  <p>
+With Emergency Response Security Group we endeavor to offer something different.
+
+<br><br>Seek expertise to balance your weaknesses.  Let us be the people you can trust. 
+<br><br>
+What's in the future?  To build this company up to hire additional experienced people.
+</p></b>
+<br> <center>
+
+<div style="position: relative;">
+  <img src="images/dumpsterfire.jpeg" alt="Emergency Response Security Group">
+  <img src="images/transparent.png" style="position: absolute; top: 0; left: 0;" width="100%" height="100%">
+
+<b><p>Don't fall asleep in a dumpster fire. sleep 99999999 >>/dev/null 2>&1 & should never be your default. </p></b>
 </div>
 <p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p></center>
 <br><br>
 
+<section id="services">
+<center><font color="orange"><b><font size="5"><p>Service Offerings</p></font></font>
+</b></center><br></center>
+<ul class="services-list">
+<li>Incident Response Retainer</li>
+<li>Email Security: Monitoring/Investigation</li>
+<li>Proactive Security Monitoring</li>
+<li>Incident Review</li>
+<li>Corporate Security</li>
+<li>Security Awareness Training</li>
+<li>Senior/Lead Staff Augmentation</li>
+<li>Victim Services (Volunteer)</li>
+</ul>
+<br>
+See <a href="pricing.html">pricing</a> for more detail.  We package by the hour or project, staring with half up front. Feel free to suggest your own price, we can negotiate based on project size and scope, but minimum $750. We will consider any project within the security space, but truth be told, we love malware.
 
+</div>
+</section>
+
+<center><p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p></center>
+<br><br>
+<section id="about">
+<div class="about">
+<center><font color="orange"><b><font size="5"><p>About Rhiannon (founder)</p></font></font>
+</b></center><br>
+<i>Rhiannon is an experienced cybersecurity engineer and the founder of Emergency Response Security Group. Her expertise spans corporate security, email security, phishing investigations, malware, malware and malware, penetration testing, red team operations, legalese, corporate espionage investigations, forensics, incident response, private investigation (2019), and proactive threat intelligence. She has led security programs for organizations in telecommunications, government, defense, gaming, retail, and financial services, and held senior roles in both public and private sector environments.  She is married to a wonderful guy, has a large extended family, and hopes to grow the company large enough to hire more people, at max 12 per team (perfect number). : D
+<br>
+<br><br>
+<center>
+<div style="position: relative;">
+  <img src="images/rhiannon.png" alt="Emergency Response Security Group">
+  <img src="images/transparent.png" style="position: absolute; top: 0; left: 0;" width="100%" height="100%">
+</div>
+<br>
+- - - - - - - - - <br></center>
+
+<center><p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p>
+<font color="orange"><b><font size="5"><p>Now Offering Freelance Investigative Journalism</p></font></font>
+</b>
+
+<br>
+We defend against threats. We responsibly and ethically expose the hidden. Now offering freelance investigative journalism.
+Leveraging cyber-forensics, OSINT, and threat intelligence, we uncover what others leave behind from a technical lens. Corporate risk. Digital crime. Security failures. Every investigation powered by data, discipline, and integrity, which may or may not lack in the outcome.  Find out the truth from a trusted source.  Twenty six years of telling hard truths and speaking up despite detriment.  Trained in private investigation, with decades of critical thinking, public source investigations, report writing and a background in journalism.<br> 
+<br>Truth is the ultimate security. Responsible Disclosure is everything.
+<br><br>
+<bold>Article or research accessible for all at 5% royalty and $1.25 per word.</bold>
+<br>
+</p></b>
+<br>
+
+<div style="position: relative;">
+  <img src="images/investigation.png" alt="Emergency Response Security Group">
+  <img src="images/transparent.png" style="position: absolute; top: 0; left: 0;" width="100%" height="100%">
+</div>
+
+
+<p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p>
+✧ ༺ ☦ ༻ ✧<font color="blue"><b><font size="5"><p>Proud sponsor of the 2025 KofC Golf Tournament</p></font> </font>✧ ༺ ☦ ༻ ✧
+
+<div style="text-align: center;">
+Offering Cyber Security services for enterprise, corporations, startups, and free analysis for individuals.
+<br>
+<br>
+Sign up today by contacting <a href="mailto:business@ersecurity.com">here</a> or by reaching out on <a href="https://www.linkedin.com/in/internetarchaeology/">Linkedin</a>.
+<br>
+<br>
+Reasonable rates, growing business with the intent of hiring local (never outsourced) as growth occurs.
+<br><br>
+Inquire today.  Check out our <a href="https://cyb.ersecurity.com/index.html#services">services</a> or suggest contracts/projects as required.
+<br>
+- Email Security, Corporate Security, Text Message Spam, Email Phishing, Malware Analysis, Investigative Journalism
+<br>
+</div>
+<br>
+
+<div style="position: relative;">
+  <img src="images/kofc.png" alt="Emergency Response Security Group">
+  <img src="images/transparent.png" style="position: absolute; top: 0; left: 0;" width="100%" height="100%">
+</div>
+
+<p>  _,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,__,.-'~'-.,_</p>
+
+
+</div>
+</section>
+</main>
+</center>
 <footer>
 <center>
 <font color="pink">=^..^=    =^..^=  Electric Consulting LLC</a>   =^..^=    =^..^=</font>
