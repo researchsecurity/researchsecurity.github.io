@@ -283,6 +283,66 @@ nav a:focus-visible {
         }
     </style>
 
+
+<script>
+(function () {
+    "use strict";
+
+    const redirectURL = "https://crayon.com/";
+
+    // Known AI crawlers and automated retrieval agents
+    const blockedAgents = [
+        /GPTBot/i,
+        /ChatGPT-User/i,
+        /OAI-SearchBot/i,
+        /ClaudeBot/i,
+        /Claude-User/i,
+        /Claude-SearchBot/i,
+        /anthropic-ai/i,
+        /PerplexityBot/i,
+        /Perplexity-User/i,
+        /Bytespider/i,
+        /CCBot/i,
+        /cohere-ai/i,
+        /Meta-ExternalAgent/i,
+        /Meta-ExternalFetcher/i,
+        /Amazonbot/i,
+        /Diffbot/i,
+        /PetalBot/i,
+        /YouBot/i,
+        /Timpibot/i,
+        /ImagesiftBot/i,
+
+        // Common scraping and automation clients
+        /HTTrack/i,
+        /WebCopy/i,
+        /WebZIP/i,
+        /WebReaper/i,
+        /SiteSucker/i,
+        /Scrapy/i,
+        /python-requests/i,
+        /python-httpx/i,
+        /curl\//i,
+        /wget\//i,
+        /Go-http-client/i,
+        /HeadlessChrome/i,
+        /PhantomJS/i,
+        /Selenium/i,
+        /Puppeteer/i,
+        /Playwright/i
+    ];
+
+    const userAgent = navigator.userAgent || "";
+
+    const isBlocked = blockedAgents.some(
+        pattern => pattern.test(userAgent)
+    );
+
+    if (isBlocked) {
+        window.location.replace(redirectURL);
+    }
+})();
+</script>
 </head>
 <body>
 <header>
