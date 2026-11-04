@@ -83,36 +83,95 @@
           transition: color .2s ease;
 }
 
-        nav {
-            font-family: Courier New', Courier, monospace;
-            color: #9999ff;
-            background: #000000;
-            display: flex;
-            justify-content: center;
-            font-size: 20px;
-            flex-wrap: wrap;
-        }
-        nav a {
-            font-family: Courier New', Courier, monospace;
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            display: block;
-            font-size: 20px;
-            animation: fadeIn 2s ease-in-out;
-        }
-        nav a:hover {
-            font-family: Courier New', Courier, monospace;
-            background: #df1313;
-            color: green;
-            padding: 14px 20px;
-            text-decoration: none;
-            display: block;
-            font-size: 20px;
-            animation: pulse 1s infinite;
-        }
-        nav a:link    { color: #00FFC6;   }
-        nav a:visited { color: #00FFC6; }
+
+
+nav {
+    font-family: 'Courier New', Courier, monospace;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 25px;
+    padding: 15px 0;
+    font-size: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 3px;
+    color: #00dfbd;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    transition:
+        color 0.25s ease,
+        text-shadow 0.25s ease;
+}
+
+nav a::before,
+nav a::after {
+    content: attr(data-text);
+    position: absolute;
+    inset: 10px 3px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 9px #00ffff;
+}
+
+nav a:hover::before {
+    color: #ff0033;
+    animation: echoRed 0.85s ease-out infinite;
+}
+
+nav a:hover::after {
+    color: #00ffff;
+    animation: echoCyan 0.85s ease-out infinite;
+}
+
+@keyframes echoRed {
+    0% {
+        transform: translate(0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-10px, -3px);
+        opacity: 0;
+    }
+}
+
+@keyframes echoCyan {
+    0% {
+        transform: translate(0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(10px, 3px);
+        opacity: 0;
+    }
+}
+
+nav a:focus-visible {
+    outline: 2px solid #ff0033;
+    outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    nav a,
+    nav a::before,
+    nav a::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+
 
          @keyframes fadeIn {
             from { opacity: 0; }
@@ -246,15 +305,15 @@ offen\sive-s\ecurity♥\malware\researc\h♥foren\sics♥os\int♥inc\ident-r\es
 </p>
 <font color="#FF00E1">
 <center><font size="5"><b>Cyber Security since 1337 </b></font></font></center>
-<nav>
+
+<nav class="main-nav">
     <a href="https://cyb.ersecurity.com/index.html#home">Home</a>
     <a href="https://cyb.ersecurity.com/about.html">About</a>
     <a href="https://ersurveillance.com">Victim Support</a>
-    <font color=red><a href="https://cyb.ersecurity.com/interview">Book</a></font>
-    <a href="https://www.gofundme.com/f/rethinking-human-verification">Fund</a></font>
+    <a href="https://cyb.ersecurity.com/interview" class="book-link">Book</a>
+    <a href="https://www.gofundme.com/f/rethinking-human-verification">Fund</a>
     <a href="https://cyb.ersecurity.com/partners.html">Referrals</a>
     <a href="https://www.linkedin.com/in/internetarchaeology/">Contact</a>
-</div>
 </nav>
 </div>
 </section>
